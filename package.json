@@ -1,0 +1,38 @@
+{
+  "name": "meichen.me",
+  "title": "Mei Chen Personal Website",
+  "version": "1.0.0",
+  "keywords": [
+    "mei chen, personal website, portfolio website, blog"
+  ],
+  "description": "A personal website for publicizing blog posts, projects, and past achievements.",
+  "author": "Mei Chen <meichen6@gmail.com> (https://meichen.me/)",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/meichen/meichen.me.git"
+  },
+  "bugs": {
+    "url": "https://github.com/meichen/meichen.me/issues"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject",
+    "deploy": "cross-env npm run build && now ./build -A ../now.json && now alias"
+  },
+  "dependencies": {
+    "@fortawesome/fontawesome": "^1.1.5",
+    "@fortawesome/fontawesome-free-brands": "^5.0.9",
+    "@fortawesome/fontawesome-free-solid": "^5.0.9",
+    "@fortawesome/react-fontawesome": "0.0.18",
+    "react": "^16.3.1",
+    "react-dom": "^16.3.1",
+    "react-router-dom": "^4.2.2",
+    "react-scripts": "1.1.4"
+  },
+  "devDependencies": {
+    "cross-env": "^5.1.4"
+  }
+}
