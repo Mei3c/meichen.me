@@ -22,9 +22,7 @@ export const biography = {
 			icon: envelope
 		}
 	],
-	brandStatement: `I am a determined web developer who utilizes innovative ideas and an
-	intentional approach to solving problems and building applications
-	to help businesses effectively reach their audiences.`
+	brandStatement: `I am a determined web developer who aspires to innovate and solve real-world problems through delivering great user experiences and beautiful layouts.`
 }
 
 export const portfolio = {
@@ -32,7 +30,7 @@ export const portfolio = {
 		{
 			name: 'Chinese New Year Trivia',
 			description:
-				'Chinese New Year Trivia is built using HTML, CSS, and Javascript it is a trivia game that was coded during the time of Chinese New Year to serve as a fun test your knowledge trivia.',
+				'Chinese New Year Trivia is a seasonal trivia game. (JavaScript, CSS, HTML)',
 			image: '/portfolio/chinese-new-year-trivia/cover-image.png',
 			url: 'https://meichen.github.io/project-1',
 			cta: 'View Demo'
@@ -40,17 +38,17 @@ export const portfolio = {
 		{
 			name: 'Jelly Byte',
 			description:
-				'JellyByte is an app built in Express, Mongoose, and HandleBars. JellyByte is a playlist apps that uses Spotify Api to help built playlist to share with friends.',
+				'JellyByte is an app that leverages the Spotify Api to compose online playlists that can be shared. (Node.js, Express, Mongoose, HandleBars, CSS, HTML)',
 			image: '/portfolio/jelly-byte/cover-image.png',
-			url: 'https://jelly-byte.herokuapp.com/',
+			url: 'https://jelly-byte.herokuapp.com',
 			cta: 'View Demo'
 		},
 		{
 			name: 'MapMyPain',
 			description:
-				'MapMyPain is an app built is React and Express. MapMyPain helps users document their pain and track their health. Users can have detail record of their medical history so they will never forget at the doctors.',
+				'MapMyPain is an app that assists users in tracking their pain and health. Users can quickly reference their notes when visiting their doctor. (React, Node.js, Express, CSS, HTML)',
 			image: '/portfolio/map-my-pain/cover-image.png',
-			url: 'http://map-my-pain.surge.sh/',
+			url: 'https://mapmypain.meichen.me',
 			cta: 'View Demo'
 		}
 	]
